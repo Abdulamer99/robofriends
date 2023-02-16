@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from "./App";
-import FirstComponent from "./Firstcomp";
 import reportWebVitals from "./reportWebVitals";
+import Card from "./card/Card";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <FirstComponent />
+    <Card></Card>
   </React.StrictMode>
 );
 
