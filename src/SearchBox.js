@@ -1,7 +1,6 @@
 import React from "react";
 
-const SearchBox = ({ list }) => {
-  console.log(list);
+const SearchBox = ({ onSearchChange }) => {
   return (
     <div className="pa-2">
       <input
@@ -9,6 +8,7 @@ const SearchBox = ({ list }) => {
         key="searchContainer"
         type="search"
         placeholder="Search robots"
+        onChange={onSearchChange}
       />
     </div>
   );
